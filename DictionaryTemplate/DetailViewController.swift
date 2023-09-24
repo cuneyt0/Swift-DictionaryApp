@@ -11,8 +11,14 @@ class DetailViewController: UIViewController {
 
     @IBOutlet weak var englishWord: UILabel!
     @IBOutlet weak var turkishWord: UILabel!
+    var words:Words?
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if let w = words{
+            englishWord.text = w.ingilizce
+            turkishWord.text = w.turkce
+        }
 
         // Do any additional setup after loading the view.
     }

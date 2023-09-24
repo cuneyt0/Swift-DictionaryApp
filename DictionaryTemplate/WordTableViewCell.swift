@@ -11,6 +11,8 @@ class WordTableViewCell: UITableViewCell {
 
     @IBOutlet weak var turkishLabel: UILabel!
     @IBOutlet weak var englishLabel: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

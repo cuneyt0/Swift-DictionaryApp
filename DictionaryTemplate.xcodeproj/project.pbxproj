@@ -20,6 +20,7 @@
 		000FE78D2ABDC6FC00745599 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000FE78C2ABDC6FC00745599 /* DetailViewController.swift */; };
 		000FE78F2ABDC86D00745599 /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000FE78E2ABDC86D00745599 /* Words.swift */; };
 		00CDD2212AC04D4000BB0C1A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 00CDD2202AC04D4000BB0C1A /* Alamofire */; };
+		00CDD2232AC04E1D00BB0C1A /* ResponseWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CDD2222AC04E1D00BB0C1A /* ResponseWord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		000FE78A2ABDC29100745599 /* WordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordTableViewCell.swift; sourceTree = "<group>"; };
 		000FE78C2ABDC6FC00745599 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		000FE78E2ABDC86D00745599 /* Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
+		00CDD2222AC04E1D00BB0C1A /* ResponseWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseWord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				000FE78A2ABDC29100745599 /* WordTableViewCell.swift */,
 				000FE78C2ABDC6FC00745599 /* DetailViewController.swift */,
 				000FE78E2ABDC86D00745599 /* Words.swift */,
+				00CDD2222AC04E1D00BB0C1A /* ResponseWord.swift */,
 			);
 			path = DictionaryTemplate;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				000FE75F2ABDBFFC00745599 /* ViewController.swift in Sources */,
+				00CDD2232AC04E1D00BB0C1A /* ResponseWord.swift in Sources */,
 				000FE78B2ABDC29100745599 /* WordTableViewCell.swift in Sources */,
 				000FE78D2ABDC6FC00745599 /* DetailViewController.swift in Sources */,
 				000FE78F2ABDC86D00745599 /* Words.swift in Sources */,

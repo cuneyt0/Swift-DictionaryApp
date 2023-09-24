@@ -7,14 +7,14 @@
 
 import Foundation
 
-class Words{
-    var kelime_id:Int?
-    var inglizce:String?
-    var Turkce:String?
+class Words:Codable{
+    var kelime_id:String?
+    var ingilizce:String?
+    var turkce:String?
     
-    init(kelime_id: Int? = nil, inglizce: String? = nil, Turkce: String? = nil) {
+    init(kelime_id: String? = nil, ingilizce: String? = nil, turkce: String? = nil) {
         self.kelime_id = kelime_id
-        self.inglizce = inglizce
-        self.Turkce = Turkce
+        self.ingilizce = ingilizce
+        self.turkce = turkce
     }
 }
